@@ -1,13 +1,10 @@
+import textLogo from "../assets/text-logo.png"
+import flowerLogo from "../assets/flower-logo.png"
+
 export default function Home() {
   return (
-    <div className="space-y-4">
-      <h1 className="text-4xl font-bold">
-        React + Tailwind + DaisyUI
-      </h1>
-
-      <button className="btn btn-primary">
-        Hello DaisyUI
-      </button>
+    <div className="flex flex-row justify-center align-middle space-y-4 ">
+      <img className="h-86" src={flowerLogo}/>
     </div>
   );
 }
